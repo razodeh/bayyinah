@@ -1,0 +1,43 @@
+# 🛠 General OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# 🛠 Logs & Runtime Files
+logs/
+*.log
+*.out
+*.pid
+*.lock
+
+# 🔥 Python (Scraper)
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.scrapy/
+.env
+.env.local
+poetry.lock
+pip-wheel-metadata/
+
+# 🏗️ Java (Spring Boot Backend)
+target/
+*.class
+*.jar
+*.war
+*.iml
+.mvn/
+*.log
+
+# 🔥 Node.js (Frontend)
+node_modules/
+dist/
+.vite/
+.yarn/
+.next/
+out/
+pnpm-lock.yaml
+package-lock.json
